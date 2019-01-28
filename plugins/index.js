@@ -1,6 +1,6 @@
 const fs = require('fs');
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
-const config = require('./../config/config.json');
+const config = require('./../config/config.js');
 
 const plugins = {};
 const aliases = {};

@@ -8,9 +8,9 @@ const bodyParser = require('body-parser');
 
 let config;
 try {
-  config = require('./config/config.json');
+  config = require('./config/config.js');
 } catch (ex) {
-  console.error('Failed to load config/config.json!');
+  console.error('Failed to load config/config.js!');
   console.error('Make sure the file exists.');
   console.error('If you need help, check out the config.example.json file.');
   process.exit(1);
